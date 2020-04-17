@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Calculadora</title>
+    </head>
+    <body>
+        <div align="center">
+            <h1>Operaciones</h1>
+        </div>
+        <div align="center">
+            <form method="post" action="proceso.php">
+                <label for="n1">Dato 1.</label>
+                <input type="text" name="n1" id="n1" placeholder="Ingrese un dato" />
+                <br /><br />
+                <label for="n2">Dato 2.</label>
+                <input type="text" name="n2" id="n2" placeholder="Ingrese un dato" />
+                <br /><br />
+                      <select name="operacion">
+                          <option value="1">Suma</option>
+                          <option value="2">Resta</option>
+                          <option value="3">Multiplicacion</option>
+                          <option value="4">Division</option>
+                      </select>
+                <br /><br />
+                <input type="submit" value="Operar" />
+            </form>
+        </div>
+    </body>
+</html>
